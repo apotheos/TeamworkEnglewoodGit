@@ -8,7 +8,6 @@
 		<div class="panel panel-success">
 			<!-- <div class="panel-heading">Teamwork Englewood</div> -->
 			<div class="panel-body">
-			This is a modification.
 				<form action="{{ URL::action('LoginController@gitHubLoginPost'); }}" method="POST" class="form-signin" role="form">
 					<h3 class="form-signin-heading">Englewood Codes</h3>
 						<button id="submit" class="btn btn-lg btn-signIn btn-block">Login with GitHub</button>

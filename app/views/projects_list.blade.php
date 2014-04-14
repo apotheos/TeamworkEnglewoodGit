@@ -1,5 +1,5 @@
 @extends('projectsPage')
-Modified.
+
 @section('table')
 
     @if(sizeOf($projects) === 0)
